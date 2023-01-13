@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.sec1{
+    width: 350px;
+    background-color: aqua;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+}
+.sec1::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 90px solid aqua;
+    border-left: 60px solid white;
+    width: 0;
+    height: 0;
+}
+.recorte{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-top: 90px solid aqua;
+    border-right: 60px solid white;
+    width: 0;
+    height: 0;
+}
+.cua{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+margin: 0 auto;
+height: 430px;
+}
+.rall{
+    position: relative;
+    left: 270px;
+    top: 0;
+    color: aliceblue;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.arr{
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    width: 120px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aba{
+    position:absolute;
+    left: 190px;
+    top: 180px;
+    width: 120px;
+    height: 50px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 315px;
+}
+.iconos{
+    position: relative;
+    left: 70px;
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2{
+display: flex;
+justify-content: center;
+}
+.cuatex{
+    width: 320px;
+    background-color:aquamarine;
+    border-radius: 10px;
+    height: 140px; 
+    padding: 1rem;
+}
+.texto1{
+display: flex;
+align-items: center;
+flex-direction: column;
+font-size: 1.5rem;
+}
+.correo{
+    position: relative;
+    display: flex;
+}
+.g{
+    width: 300px;
+    height:35px;
+    border-radius: 2rem;
+    background-color: aqua;
+    border-color: transparent;
+}
+.env{
+    position: absolute;
+    right: 0px;
+    width: 130px;
+    height:35px;
+    border-radius: 2rem;
+    background-color: green;
+    border-color: transparent;
+    font-size: 1.5rem;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+.raya{
+    position: relative;
+    height: 210px;
+    width: 50px;
+    background-color: red;
+}
+.texcu{ 
+display: flex;
+}
+
+.tex2{
+    position: relative;
+    left: 19px;
+}
+
+.descar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 2rem;
+    width: 180px;
+    height: 40px;
+    border-color: transparent;
+    background-color: green;
+    color: white;
+}
+.title2{
+    position: relative;
+    left: -80px;
+    font-size: 2rem;
+}
+
+.q{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.sec4{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
+}
+.cua1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: aquamarine;
+    border-radius: 1rem;
+}
+.sec5{
+    margin: 0 auto;
+    width: 350px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.caja{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.ra{
+    height: 15px;
+    background-color: aqua;
+    border-radius: 2rem;
+    position: relative;
+}
+
+.por{
+    position:absolute;
+    height: 15px;
+    border-radius: 2rem;
+    background-color: green;
+}
+.ver1{
+    width: 80%;
+}
+.ver2{
+    width: 95%;
+}
+.ver3{
+    width: 90%;
+}
+.ver4{
+    width: 75%;
+}
+.flec{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    border-top: white solid 3px;
+    border-right: white solid 3px;
+    transform: rotate(225deg)
+}
+.dird{
+transform: rotate(40deg);
+}
+
+.sec6{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 350px;
+    gap: 1rem;
+    background-color: aquamarine;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(236, 108, 61);
+}
+.caja3{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 330px;
+}
+.caja31{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja32{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.tes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec7{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.img2{
+display: flex;
+width: 350px;
+gap: 1rem;
+}
+.tama{
+    width: 200px;
+    height:200px ;
+}
+.s{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.sec8{
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+justify-content: center;
+}
+.title4{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.comu{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+.comu1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bola{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:aquamarine;
+}
+.sec9{
+    margin: 0 auto;
+    width: 350px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: aliceblue;
+    gap: 1rem;
+}
+@media(min-width: 900px){
+.sec1{
+    width: 700px;
+}
+.cuatex{
+    width: 700px;
+    
+}
+.g{
+    width: 100%;
+}
+.sec3{
+    width: 700px;
+}
+.raya{
+    height: 100px;
+}
+.sec4{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.cua1{
+    width:300px;
+}
+.caja{
+    width: 700px;
+}
+.sec6{
+    width: 700px;
+}
+.caja3{
+    display: flex;
+    flex-direction: row;
+}
+}
